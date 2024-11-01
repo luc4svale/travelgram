@@ -2,7 +2,7 @@ footer {
   padding-block: 24px;display: flex;
   justify-content: space-between;
   align-items: center;
-  font: var(--text-md);
+  font: 14px/150% var(--font-family);
 }
 
 
