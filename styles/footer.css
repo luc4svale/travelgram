@@ -1,0 +1,13 @@
+footer {
+  padding-block: 24px;display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: var(--text-md);
+}
+
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
