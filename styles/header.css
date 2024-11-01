@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 32px;
+}
+
+#profile {
+  display: flex;
+  column-gap: 32px;
+  align-items: center;
+}
+
+#profile > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  max-width: 384px;
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+}
+
+#profile p {
+  font: var(--text-md);
+  color: inherit;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 16px;
+  list-style: none;
+  min-width: 280px;
+}
+
+#info li {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+#info li span {
+  font: var(--text-md);
+  color: inherit;
+}
